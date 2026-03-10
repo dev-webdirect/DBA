@@ -1,4 +1,13 @@
 // app/api/contact/route.ts
+
+import { NextResponse } from "next/server";
+
+export async function POST() {
+  return NextResponse.json({ error: "Contact API disabled" }, { status: 503 });
+}
+
+
+// app/api/contact/route.ts
 /*
 import { NextResponse } from "next/server";
 import { Resend } from "resend";

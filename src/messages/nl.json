@@ -1,0 +1,351 @@
+{
+  "hero": {
+    "badge": "Voor zzp’ers in elke branche",
+    "titleLine1": "Van zzp'er naar",
+    "titleAantoonbaar": "aantoonbaar",
+    "titleZelfstandig": "zelfstandig",
+    "titleOndernemer": "ondernemer",
+    "titleDays": "5 dagen",
+    "subtitle": "Opdrachtgevers mogen zzp'ers nog steeds inhuren. Maar de eisen zijn strenger geworden. Aantoonbare zelfstandigheid betekent vandaag meer dan een KVK-nummer - opdrachtgevers willen het kunnen onderbouwen.",
+    "ctaPrimary": "CLAIM JE PLEK",
+    "ctaSecondary": "ONS PROCESS"
+  },
+  "problem": {
+    "sectionLabel": "Het Probleem",
+    "headingMain": "Goed werk is niet meer genoeg om",
+    "headingHighlight": "ingehuurd te worden.",
+    "description": "Bedrijven mogen zzp'ers nog steeds inhuren. Maar de eisen zijn strenger geworden. Aantoonbare zelfstandigheid betekent vandaag meer dan een KVK-nummer - opdrachtgevers willen het kunnen onderbouwen.",
+    "cardTitle": "WAT ER IN DE PRAKTIJK GEBEURT..",
+    "items": [
+      { "id": "pi-1", "text": "Opdrachten stoppen plotseling zonder uitleg" },
+      { "id": "pi-2", "text": "Contracten worden niet verlengd" },
+      { "id": "pi-3", "text": "Bedrijven kiezen vaker voor bureaus of detachering" },
+      { "id": "pi-4", "text": "Opdrachtgevers vragen om bewijs van zelfstandigheid" },
+      { "id": "pi-5", "text": "Jouw profiel ziet er niet uit als een onderneming" },
+      { "id": "pi-6", "text": "Inhuurbeslissingen worden intern steeds vaker getoetst" }
+    ],
+    "quote": "Vanaf 1 januari 2025 handhaaft de Belastingdienst volledig op schijnzelfstandigheid. Het verschil zit niet in het werk dat je doet — maar in hoe professioneel je ondernemerschap is ingericht.",
+    "quoteSource": "Rijksoverheid.nl / belastingdienst.nl",
+    "whyTitle": "Waarom je opdrachten verliest van je concurrent.",
+    "whyBodyPrefix": "Niet omdat ze beter zijn. Maar omdat ze professioneller ogen. Die opdrachtgever kiest niet per se voor de beste professional. Hij kiest voor de",
+    "whyBodyHighlight": "veiligste keuze"
+  },
+  "navbar": {
+    "brandMain": "Klaar",
+    "brandTagline": "Compliance",
+    "links": {
+      "probleem": "Het Probleem",
+      "methode": "De Methode",
+      "garantie": "Garantie",
+      "cta": "Claim je plek"
+    }
+  },
+  "process": {
+    "badge": "Stap voor stap",
+    "headingMain": "Drie stappen. Vijf dagen.",
+    "headingHighlight": "Volledig ingericht.",
+    "description": "Jouw ondernemerschap volledig ingericht terwijl jij gewoon doorwerkt. Geen gedoe, geen maanden werk, geen losse partijen die je moet coördineren.",
+    "cta": "Claim je plek!",
+    "steps": [
+      {
+        "id": "ps-1",
+        "title": "Stap 1: Intake",
+        "desc": "Jij vertelt ons wie je bent en wat je doet. Wij leggen jouw positionering, werkwijze en zelfstandigheid vast."
+      },
+      {
+        "id": "ps-2",
+        "title": "Stap 2: Wij gaan aan het werk.",
+        "desc": "Wij bouwen je website, richten je mailbox in, optimaliseren LinkedIn en stellen alle samenwerkingsdocumenten op. Jij hoeft niets te doen."
+      },
+      {
+        "id": "ps-3",
+        "title": "Stap 3: Live & Gecertificeerd",
+        "desc": "Na 5 dagen staat alles live. Je ontvangt je DBA Klaar Certificaat en toegang tot het Zeker Zelfstandig Netwerk."
+      }
+    ]
+  },
+  "solutions": {
+    "sectionLabel": "Onze services",
+    "headingMain": "Wat wij voor je ",
+    "headingHighlight": "doen",
+    "description": "Alles wat je nodig hebt om professioneel te opereren als zelfstandige - in één pakket, gebouwd in 5 dagen.",
+    "items": [
+      {
+        "id": "sol-1",
+        "title": "Professioneel ondernemersprofiel",
+        "description": "Een scherpe positionering die laat zien wat je doet, voor wie je werkt en welke waarde je levert. Opdrachtgevers begrijpen direct waarom ze jou moeten inhuren."
+      },
+      {
+        "id": "sol-2",
+        "title": "Professionele website",
+        "description": "Inclusief professionele mailbox. Gebouwd om twijfel weg te nemen - voordat een opdrachtgever überhaupt de telefoon pakt."
+      },
+      {
+        "id": "sol-3",
+        "title": "LinkedIn optimalisatie",
+        "description": "Zo ingericht dat opdrachtgevers direct begrijpen wat je doet en geen reden hebben om te twijfelen aan jouw zelfstandigheid."
+      },
+      {
+        "id": "sol-4",
+        "title": "Samenwerkingsdocumenten",
+        "description": "Professionele opdrachtovereenkomst, offerte-, factuur- en voorstel templates. Jouw zelfstandigheid helder op papier."
+      },
+      {
+        "id": "sol-5",
+        "title": "Opdrachtgever informatiepakket",
+        "description": "Deel dit document met nieuwe opdrachtgevers. Jouw werkwijze en zelfstandigheid in één overzicht — zodat zij intern geen discussie meer hebben."
+      },
+      {
+        "id": "sol-6",
+        "title": "DBA Klaar Certificaat",
+        "description": "Bewijs dat jouw ondernemerschap professioneel is ingericht en beoordeeld. Deelbaar met opdrachtgevers."
+      },
+      {
+        "id": "sol-7",
+        "title": "Toegang tot het DBA Klaar Netwerk",
+        "description": "Na afronding word je opgenomen in ons netwerk van professioneel ingerichte zelfstandigen. Bedrijven die aantoonbaar zelfstandige zzp'ers zoeken krijgen toegang. Jij staat daarin."
+      }
+    ]
+  },
+  "midCta": {
+    "badge": "Beperkte plaatsen beschikbaar",
+    "headingPrefix": "Klaar om je ",
+    "headingHighlight": "ondernemerschap",
+    "headingSuffix": " professioneel in te richten?",
+    "subtitle": "Plan een gratis kennismakingsgesprek. Wij kijken samen naar jouw situatie en vertellen je precies wat je nodig hebt.",
+    "cta": "Plan een gesprek",
+    "socialProof": "Sluit je aan bij talloze zzp'ers die al DBAklaar zijn.",
+    "cardTitle": "Wat je krijgt in het gesprek",
+    "benefits": [
+      { "id": "cb-1", "text": "Gratis en vrijblijvend kennismakingsgesprek" },
+      { "id": "cb-2", "text": "Wij analyseren jouw huidige situatie" },
+      { "id": "cb-3", "text": "Persoonlijk advies over jouw DBA-risico" },
+      { "id": "cb-4", "text": "Binnen 24 uur een reactie van ons team" }
+    ],
+    "stat1Value": "Gratis",
+    "stat1Label": "kennismaking",
+    "stat2Value": "30 min",
+    "stat2Label": "gesprek"
+  }
+  ,
+  "testimonials": {
+    "sectionLabel": "Testimonials",
+    "headingMain": "Onze klanten aan ",
+    "headingHighlight": "woord",
+    "stats": [
+      { "value": "5", "label": "Dagen tot livegang" },
+      { "value": "7", "label": "deliverables in één pakket" },
+      { "value": "1", "label": "intake — wij doen de rest" }
+    ],
+    "testimonials": [
+      {
+        "id": 1,
+        "name": "Thomas van den Berg",
+        "role": "Senior Projectmanager",
+        "quote": "Eindelijk een partij die snapt waar de angst van mijn opdrachtgevers vandaan komt. Binnen 5 dagen had ik een profiel dat direct alle twijfels wegnam bij inkoop."
+      },
+      {
+        "id": 2,
+        "name": "Sanne Meijer",
+        "role": "Interim HR Specialist",
+        "quote": "Ik zag opdrachten aan mijn neus voorbijgaan door de wet DBA. Sinds ik 'DBA Klaar' ben, is het proces bij nieuwe klanten 10x makkelijker."
+      },
+      {
+        "id": 3,
+        "name": "Mark de Boer",
+        "role": "IT Consultant",
+        "quote": "De website en het certificaat geven me een enorme voorsprong. Het is geen 'moetje' meer, maar een marketinginstrument geworden."
+      },
+      {
+        "id": 4,
+        "name": "Lisa Verhoeven",
+        "role": "Freelance UX Designer",
+        "quote": "Mijn opdrachtgever twijfelde intern over de inhuur. Nadat ik het DBA Klaar certificaat deelde, was die discussie meteen van tafel. Puur goud."
+      },
+      {
+        "id": 5,
+        "name": "Jeroen Smits",
+        "role": "Zelfstandig Financieel Adviseur",
+        "quote": "Ik dacht dat ik alles al op orde had. DBA Klaar liet zien wat er ontbrak. Nu sta ik professioneler dan ooit en heb ik al twee nieuwe opdrachten binnengehaald."
+      },
+      {
+        "id": 6,
+        "name": "Nadia el Amrani",
+        "role": "Interim Communicatiespecialist",
+        "quote": "Het hele traject duurde letterlijk vijf dagen. Ik hoefde niks te doen en had daarna een complete professionele uitstraling. Ongelooflijk efficiënt."
+      },
+      {
+        "id": 7,
+        "name": "Bas Kroon",
+        "role": "Zelfstandig Bouwkundig Adviseur",
+        "quote": "Opdrachtgevers in mijn sector zijn voorzichtiger geworden. Dankzij DBA Klaar kan ik nu aantonen dat mijn zelfstandigheid volledig op orde is. Dat geeft rust."
+      },
+      {
+        "id": 8,
+        "name": "Femke Dijkstra",
+        "role": "Zelfstandig Marketingstrateeg",
+        "quote": "De combinatie van website, LinkedIn en de samenwerkingsdocumenten werkt als een professioneel pakket. Opdrachtgevers zien direct dat ik serieus ondernemer ben."
+      }
+    ]
+  },
+  "eligibility": {
+    "subtitle": "Checklist",
+    "questionMain": "Is dit iets voor ",
+    "questionHighlight": "jou",
+    "negativeTitle": "Dit is niet voor jou als je...",
+    "positiveTitle": "Dit is voor jou als je...",
+    "negativeItems": [
+      { "id": 1, "text": "Denkt dat het allemaal wel losloopt" },
+      { "id": 2, "text": "Wacht tot je een opdracht verliest voor je actie onderneemt" },
+      { "id": 4, "text": "Geen serieuze onderneming wil opbouwen" },
+      { "id": 5, "text": "Alles liever zelf uitzoekt" }
+    ],
+    "positiveItems": [
+      { "id": 1, "text": "Zelfstandig werkt als zzp'er in Nederland" },
+      { "id": 2, "text": "Begrijpt dat de markt veranderd is" },
+      { "id": 3, "text": "Nu voorop wil lopen in plaats van straks bij te benen" },
+      { "id": 4, "text": "Minder discussie wil over jouw zelfstandigheid bij inhuur" },
+      { "id": 5, "text": "Meer opdrachten wil binnenhalen met een sterk profiel" }
+    ],
+    "socialProof": "2500+ andere zzp'ers zijn zich hiervan bewust"
+  },
+  "bookCall": {
+    "badge": "Vrijblijvend gesprek",
+    "headingMain": "Ontdek wat wij",
+    "headingHighlight": "voor jou kunnen doen.",
+    "description": "Plan een gratis en vrijblijvend kennismakingsgesprek van 30 minuten. Geen verplichtingen — alleen concrete antwoorden op jouw situatie.",
+    "stripLabel": "DBA KLAAR methode - PERSOONLIJK KENNISMAKINGSGESPREK",
+    "stripBadge": "Volledig gratis",
+    "stripPriceLabel": "Volledig gratis",
+    "includesLabel": "Wat je kunt verwachten",
+    "includes": [
+      { "id": "ci-1", "label": "Analyse van jouw huidige ondernemersprofiel" },
+      { "id": "ci-2", "label": "Inzicht in wat ontbreekt aan jouw positionering" },
+      { "id": "ci-3", "label": "Bekijken van jouw LinkedIn en online aanwezigheid" },
+      { "id": "ci-4", "label": "Uitleg over onze werkwijze en aanpak" },
+      { "id": "ci-5", "label": "Antwoord op al jouw vragen over de Wet DBA" },
+      { "id": "ci-6", "label": "Eerlijk gesprek - ook als wij niet de juiste match zijn" },
+      { "id": "ci-7", "label": "Geen verplichtingen, geen verborgen kosten" }
+    ],
+    "rightTopLabel": "JOUW VOLGENDE STAP:",
+    "rightHeadingPrefix": "Plan een ",
+    "rightHeadingHighlight": "gesprek",
+    "rightHeadingSuffix": ".",
+    "rightSubheading": "30 minuten — vrijblijvend en gratis",
+    "discussLabel": "Wat we bespreken",
+    "discussItems": [
+      { "id": "wb-1", "text": "Jouw huidige situatie als zelfstandige." },
+      { "id": "wb-2", "text": "Hoe de Wet DBA jouw inhuurpositie beïnvloedt." },
+      { "id": "wb-3", "text": "Hoe wij jouw profiel professioneel inrichten." }
+    ],
+    "quote": "Wij nemen alleen klanten aan die wij écht kunnen helpen. Dat bespreken we eerlijk tijdens het kennismakingsgesprek.",
+    "capacityLabel": "Capaciteit deze maand",
+    "capacityStatus": "18 van 25 plekken bezet",
+    "ctaPrimary": "Plan je kennismakingsgesprek",
+    "ctaNote": "Wij nemen binnen 24 uur contact op"
+  },
+  "guarantee": {
+    "label": "Zekerheid",
+    "headingMain": "DBA ",
+    "headingHighlight": "Ondersteuningsgarantie",
+    "body": "Wij helpen je jouw ondernemerschap zo in te richten dat je duidelijk kunt laten zien hoe je als zelfstandig ondernemer werkt. Mocht er later een vraag of controle ontstaan rondom jouw zzp-situatie onder de Wet DBA, dan helpen wij je kosteloos met documentatie en uitleg zodat je jouw werkwijze kunt toelichten.",
+    "badges": [
+      { "id": "gb-1", "label": "Aantoonbaar ingericht" },
+      { "id": "gb-2", "label": "Kosteloos ondersteund" },
+      { "id": "gb-3", "label": "Klaar bij controle" }
+    ]
+  },
+  "faq": {
+    "sectionLabel": "Onduidelijkheden",
+    "headingMain": "Veelgestelde ",
+    "headingHighlight": "Vragen",
+    "description": "Alles wat u moet weten over de Wet DBA en onze werkwijze.",
+    "items": [
+      {
+        "id": "faq-1",
+        "question": "Wat zijn de risico's van de Wet DBA voor mij?",
+        "answer": "De grootste risico's zijn naheffingen van de Belastingdienst en het verlies van opdrachten omdat opdrachtgevers het risico op schijnzelfstandigheid te groot vinden. Wij helpen je deze risico's te verkleinen door je ondernemerschap aantoonbaar in te richten."
+      },
+      {
+        "id": "faq-2",
+        "question": "Is dit traject ook geschikt voor parttime zzp'ers?",
+        "answer": "Zeker. Of je nu 40 uur per week werkt of 16 uur - de eisen van opdrachtgevers gelden voor iedereen. Een professionele inrichting is juist voor parttimers een sterke manier om hun zelfstandigheid aan te tonen."
+      },
+      {
+        "id": "faq-3",
+        "question": "Wat als ik al een website heb?",
+        "answer": "Geen probleem. We kunnen je bestaande website optimaliseren met de juiste teksten en positionering, of we bouwen een specifieke landingspagina gericht op jouw zakelijke identiteit."
+      },
+      {
+        "id": "faq-4",
+        "question": "Welke garantie geven jullie?",
+        "answer": "Wij bieden een DBA Ondersteuningsgarantie. Mocht er later een vraag of controle ontstaan over jouw zzp-situatie onder de Wet DBA, bijvoorbeeld door een opdrachtgever of de Belastingdienst, dan helpen wij je kosteloos met de juiste documentatie en uitleg zodat je duidelijk kunt laten zien hoe jij als zelfstandig ondernemer werkt."
+      },
+      {
+        "id": "faq-5",
+        "question": "Is dit traject juridisch waterdicht?",
+        "answer": "Geen enkel traject kan volledige zekerheid bieden - de Belastingdienst beslist altijd zelf. Maar zzp'ers met een professioneel ingericht ondernemerschap staan aantoonbaar sterker bij selectie en interne toetsing door opdrachtgevers. Dat is precies wat wij bouwen."
+      }
+    ]
+  },
+  "finalCta": {
+    "badge": "Kennismakingsgesprek",
+    "headingMain": "Plan een ",
+    "headingHighlight": "gesprek",
+    "description": "Laat je gegevens achter en wij plannen een gratis gesprek van 30 minuten om jouw situatie te bespreken. Vrijblijvend en zonder verplichtingen.",
+    "buttonIdle": "Plan mijn gratis gesprek",
+    "buttonLoading": "Moment...",
+    "availabilityLabel": "Beschikbaarheid deze maand",
+    "availabilityStatus": "Nog 7 gesprekken beschikbaar",
+    "availabilityNote": "Wij nemen binnen 24 uur contact op om een tijd in te plannen",
+    "successTitlePrefix": "Aanvraag ",
+    "successTitleHighlight": "Ontvangen",
+    "successBody": "Bedankt voor uw interesse. Wij nemen binnen 24 uur contact op om een kennismakingsgesprek in te plannen."
+  },
+  "stickyChat": {
+    "headerBrand": "DBA Klaar",
+    "headerStatus": "Online — Snel reactie",
+    "closeAria": "Sluit chat",
+    "message": "Hoi! 👋 Heb je vragen over de Wet DBA of onze aanpak? Wij helpen je graag verder.",
+    "quickCta": "Plan een gratis gesprek",
+    "quickCtaLabel": "Plan een gratis gesprek",
+    "quickCtaAria": "Plan een gratis gesprek",
+    "footerNote": "Reactie binnen 24 uur",
+    "triggerOpenAria": "Open chat",
+    "triggerCloseAria": "Sluit chat"
+  },
+  "footer": {
+    "navigation": {
+      "title": "Navigatie",
+      "col1": [
+        { "id": "nav-1", "href": "#probleem", "label": "Het Probleem" },
+        { "id": "nav-2", "href": "#methode", "label": "De Methode" },
+        { "id": "nav-3", "href": "#oplossing", "label": "Oplossingen" }
+      ],
+      "col2": [
+        { "id": "nav-4", "href": "#wachtlijst", "label": "Plan gesprek" },
+        { "id": "nav-5", "href": "#faq", "label": "Veelgestelde vragen" },
+        { "id": "nav-6", "href": "#wachtlijst", "label": "Wachtlijst" }
+      ]
+    },
+    "legal": {
+      "title": "Juridisch",
+      "col1": [
+        { "id": "legal-1", "href": "#", "label": "Voorwaarden" },
+        { "id": "legal-2", "href": "#", "label": "Privacy" }
+      ],
+      "col2": [
+        { "id": "legal-3", "href": "#", "label": "Cookies" },
+        { "id": "legal-4", "href": "#", "label": "Disclaimer" }
+      ]
+    },
+    "contact": {
+      "title": "Neem contact op",
+      "cityLabel": "Oisterwijk",
+      "email": "info@dbaklaar.nl",
+      "emailHref": "mailto:info@dbaklaar.nl",
+      "linkedinLabel": "Volg ons op LinkedIn",
+      "linkedinHref": "#"
+    }
+  }
+}

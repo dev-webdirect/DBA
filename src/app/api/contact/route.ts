@@ -1,4 +1,5 @@
 // app/api/contact/route.ts
+/*
 import { NextResponse } from "next/server";
 import { Resend } from "resend";
 import { z } from "zod";
@@ -83,3 +84,4 @@ export async function POST(req: Request) {
     return NextResponse.json({ error: "Server error" }, { status: 500 });
   }
 }
+*/

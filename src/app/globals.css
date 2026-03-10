@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+/* Define the default font variable */
+:root {
+  --client-font: "DefaultFont", sans-serif;
+}
+
+/* Change this for every client 
+1 upload the font in the public/fonts folder
+2 change the font-family name and the url to the font file
+*/
+@font-face {
+  font-family: "ClientFont";
+  src: url("/fonts/ClientFont-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Apply the font using the variable */
+body {
+  font-family: var(--client-font);
+}

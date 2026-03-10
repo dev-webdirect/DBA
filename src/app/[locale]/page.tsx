@@ -44,7 +44,7 @@ export default async function HomeLocalePage({
   <GuaranteeSection messages={messages.guarantee} />
   <FAQSection messages={messages.faq} />
   <FinalCTASection messages={messages.finalCta} />
-  <Footer />
+  <Footer messages={messages.footer} />
   <StickyChatButton messages={messages.stickyChat} /> 
   </>;
 }

@@ -2,7 +2,7 @@
 @plugin "tailwindcss-animate/index.js";
 
 /* ================================
-   Root Theme Variables
+   Root Theme Variables (Hero palette)
 ================================ */
 :root {
   --radius: 0.625rem;
@@ -10,33 +10,33 @@
   /* Font */
   --client-font: "ClientFont", sans-serif;
 
-  /* Colors */
-  --background: oklch(0.2077 0.0398 265.7556);
-  --foreground: oklch(0.145 0 0);
+  /* Colors - match HeroSection */
+  --background: #161928;
+  --foreground: #ffffff;
 
-  --card: oklch(1 0 0);
-  --card-foreground: oklch(0.145 0 0);
+  --card: #1E2238;
+  --card-foreground: #ffffff;
 
-  --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.145 0 0);
+  --popover: #1E2238;
+  --popover-foreground: #ffffff;
 
-  --primary: oklch(0.205 0 0);
-  --primary-foreground: oklch(0.985 0 0);
+  --primary: #E07B39;
+  --secondary: #1E2238;
+  --primary-foreground: #161928;
 
-  --secondary: oklch(0.97 0 0);
-  --secondary-foreground: oklch(0.205 0 0);
+  --secondary-foreground: #ffffff;
 
-  --muted: oklch(0.97 0 0);
-  --muted-foreground: oklch(0.556 0 0);
+  --muted: #ffffff0d; /* white/5 */
+  --muted-foreground: #ffffff8c; /* white/55 */
 
-  --accent: oklch(0.97 0 0);
-  --accent-foreground: oklch(0.205 0 0);
+  --accent: #E07B39;
+  --accent-foreground: #ffffff;
 
-  --destructive: oklch(0.577 0.245 27.325);
+  --destructive: #ef4444;
 
-  --border: oklch(0.922 0 0);
-  --input: oklch(0.922 0 0);
-  --ring: oklch(0.708 0 0);
+  --border: #ffffff33; /* white/20 */
+  --input: #ffffff33;
+  --ring: #E07B39;
 }
 
 /* ================================
@@ -97,30 +97,12 @@
    Dark Mode
 ================================ */
 .dark {
-  --background: oklch(0.145 0 0);
-  --foreground: oklch(0.985 0 0);
-
-  --card: oklch(0.205 0 0);
-  --card-foreground: oklch(0.985 0 0);
-
-  --popover: oklch(0.205 0 0);
-  --popover-foreground: oklch(0.985 0 0);
-
-  --primary: oklch(0.922 0 0);
-  --primary-foreground: oklch(0.205 0 0);
-
-  --secondary: oklch(0.269 0 0);
-  --secondary-foreground: oklch(0.985 0 0);
-
-  --muted: oklch(0.269 0 0);
-  --muted-foreground: oklch(0.708 0 0);
-
-  --accent: oklch(0.269 0 0);
-  --accent-foreground: oklch(0.985 0 0);
-
-  --border: oklch(1 0 0 / 10%);
-  --input: oklch(1 0 0 / 15%);
-  --ring: oklch(0.556 0 0);
+  /* Same palette for now – override here if you
+     later want a different dark mode look */
+     --background: oklch(0.145 0 0);
+     --foreground: #ffffff;
+  --primary: #E07B39;
+  --primary-foreground: #161928;
 }
 
 /* ================================

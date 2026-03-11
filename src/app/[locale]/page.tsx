@@ -10,9 +10,9 @@ import nl from "@/messages/nl.json";
 import { TestimonialCarousel } from "../components/TestimonialCarousel";
 import { GuaranteeSection } from "@/app/components/GuaranteeSection";
 import { FAQSection } from "@/app/components/FAQSection";
-import { FinalCTASection } from "@/app/components/FinalCTASection";
 import { Footer } from "@/app/components/Footer";
 import { StickyChatButton } from "@/app/components/StickyChatButton";
+import { FinalCTASection } from "@/app/components/FinalCTASection";
 
 type LocaleParams = {
   locale: string;
@@ -32,6 +32,7 @@ export default async function HomeLocalePage({
   const messages = messagesByLocale[locale] ?? messagesByLocale.default;
 
   return <> 
+  {/* @ts-ignore 
   <Navbar messages={messages.navbar} />
   <HeroSection messages={messages.hero} />
   <ProblemSection messages={messages.problem} />
@@ -46,5 +47,22 @@ export default async function HomeLocalePage({
   <FinalCTASection messages={messages.finalCta} />
   <Footer messages={messages.footer} />
   <StickyChatButton messages={messages.stickyChat} /> 
+  */}
+
+<Navbar  />
+  <HeroSection  />
+  <ProblemSection  />
+  <ProcessSection  />
+  <SolutionsSection  />
+  <MidCTASection  />
+  <TestimonialCarousel  />
+  <EligibilityComparison  />
+  <BookCallSection  />
+  <GuaranteeSection  />
+  <FAQSection  />
+  <FinalCTASection  />
+  <Footer  />
+  <StickyChatButton  />
+  
   </>;
 }

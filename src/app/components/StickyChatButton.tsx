@@ -1,5 +1,5 @@
 "use client";
-
+/*
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { MessageCircle, X, ArrowRight } from 'lucide-react';
@@ -14,7 +14,6 @@ export const StickyChatButton = ({ messages }: StickyChatButtonProps) => {
   const [isOpen, setIsOpen] = useState(false);
   return <div className="fixed bottom-6 right-6 z-50 flex flex-col items-end gap-3">
 
-      {/* Chat Popup */}
       <AnimatePresence>
         {isOpen && <motion.div initial={{
         opacity: 0,
@@ -32,7 +31,6 @@ export const StickyChatButton = ({ messages }: StickyChatButtonProps) => {
         duration: 0.25,
         ease: [0.22, 1, 0.36, 1]
       }} className="w-[300px] sm:w-[320px] bg-[#1e2130] border border-white/10 rounded-[24px] overflow-hidden shadow-[0_24px_64px_rgba(0,0,0,0.5)]">
-            {/* Header */}
             <div className="bg-[#DDB892] px-5 py-4 flex items-center justify-between">
               <div className="flex items-center gap-3">
                 <div className="w-8 h-8 bg-[#1a1c24] rounded-lg flex items-center justify-center font-black text-[#DDB892] text-[10px]">
@@ -56,16 +54,13 @@ export const StickyChatButton = ({ messages }: StickyChatButtonProps) => {
               </button>
             </div>
 
-            {/* Body */}
             <div className="p-5 space-y-4">
-              {/* Message bubble */}
               <div className="bg-white/5 border border-white/8 rounded-2xl rounded-tl-sm px-4 py-3">
                 <p className="text-white/80 text-sm font-light leading-relaxed">
                   {messages.message}
                 </p>
               </div>
 
-              {/* Quick action */}
               <a
                 href="#wachtlijst"
                 onClick={() => setIsOpen(false)}
@@ -85,7 +80,6 @@ export const StickyChatButton = ({ messages }: StickyChatButtonProps) => {
           </motion.div>}
       </AnimatePresence>
 
-      {/* Trigger Button */}
       <motion.button
         onClick={() => setIsOpen(!isOpen)}
         whileHover={{ scale: 1.08 }}
@@ -124,7 +118,6 @@ export const StickyChatButton = ({ messages }: StickyChatButtonProps) => {
         </AnimatePresence>
       </motion.button>
 
-      {/* Pulse ring when closed */}
       <AnimatePresence>
         {!isOpen && <motion.span initial={{
         opacity: 0
@@ -134,6 +127,129 @@ export const StickyChatButton = ({ messages }: StickyChatButtonProps) => {
         opacity: 0
       }} className="absolute bottom-0 right-0 w-14 h-14 sm:w-16 sm:h-16 rounded-full pointer-events-none">
             <span className="absolute inset-0 rounded-full bg-[#DDB892]/30 animate-ping" />
+          </motion.span>}
+      </AnimatePresence>
+
+    </div>;
+};
+export default StickyChatButton;
+
+*/
+
+"use client";
+
+import React, { useState } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
+import { MessageCircle, X, ArrowRight } from 'lucide-react';
+
+// @component: StickyChatButton
+export const StickyChatButton = () => {
+  const [isOpen, setIsOpen] = useState(false);
+  return <div className="fixed bottom-6 right-6 z-50 flex flex-col items-end gap-3">
+
+      {/* Chat Popup */}
+      <AnimatePresence>
+        {isOpen && <motion.div initial={{
+        opacity: 0,
+        y: 16,
+        scale: 0.95
+      }} animate={{
+        opacity: 1,
+        y: 0,
+        scale: 1
+      }} exit={{
+        opacity: 0,
+        y: 16,
+        scale: 0.95
+      }} transition={{
+        duration: 0.25,
+        ease: [0.22, 1, 0.36, 1]
+      }} className="w-[300px] sm:w-[320px] bg-[#252840] border border-white/10 rounded-[24px] overflow-hidden shadow-[0_24px_64px_rgba(0,0,0,0.5)]">
+            {/* Header */}
+            <div className="bg-[#E07B39] px-5 py-4 flex items-center justify-between">
+              <div className="flex items-center gap-3">
+                <div className="w-8 h-8 bg-white rounded-lg flex items-center justify-center font-black text-[#E07B39] text-[10px]">
+                  <span>DBA</span>
+                </div>
+                <div className="flex flex-col -space-y-0.5">
+                  <span className="text-white font-black text-sm leading-tight">DBA Klaar</span>
+                  <span className="text-white/70 text-[10px] font-medium uppercase tracking-wider">Online — Snel reactie</span>
+                </div>
+              </div>
+              <button onClick={() => setIsOpen(false)} className="w-7 h-7 rounded-full bg-white/20 hover:bg-white/30 flex items-center justify-center transition-colors" aria-label="Sluit chat">
+                <X size={13} className="text-white" />
+              </button>
+            </div>
+
+            {/* Body */}
+            <div className="p-5 space-y-4">
+              {/* Message bubble */}
+              <div className="bg-white/5 border border-white/8 rounded-2xl rounded-tl-sm px-4 py-3">
+                <p className="text-white/80 text-sm font-light leading-relaxed">
+                  Hoi! 👋 Heb je vragen over de Wet DBA of onze aanpak? Wij helpen je graag verder.
+                </p>
+              </div>
+
+              {/* Quick action */}
+              <a href="#wachtlijst" onClick={() => setIsOpen(false)} className="flex items-center justify-between w-full bg-[#E07B39]/10 hover:bg-[#E07B39]/20 border border-[#E07B39]/20 hover:border-[#E07B39]/40 rounded-xl px-4 py-3 transition-all group">
+                <span className="text-[#E07B39] text-xs font-black uppercase tracking-widest">Plan een gratis gesprek</span>
+                <ArrowRight size={14} className="text-[#E07B39] group-hover:translate-x-1 transition-transform" />
+              </a>
+
+              <p className="text-center text-[10px] text-white/20 uppercase tracking-widest font-medium">
+                Reactie binnen 24 uur
+              </p>
+            </div>
+          </motion.div>}
+      </AnimatePresence>
+
+      {/* Trigger Button */}
+      <motion.button onClick={() => setIsOpen(!isOpen)} whileHover={{
+      scale: 1.08
+    }} whileTap={{
+      scale: 0.94
+    }} className="w-14 h-14 sm:w-16 sm:h-16 bg-[#E07B39] hover:bg-white rounded-full flex items-center justify-center shadow-[0_8px_32px_rgba(224,123,57,0.4)] hover:shadow-[0_8px_32px_rgba(255,255,255,0.2)] transition-colors" aria-label="Open chat">
+        <AnimatePresence mode="wait" initial={false}>
+          {isOpen ? <motion.span key="close" initial={{
+          rotate: -90,
+          opacity: 0
+        }} animate={{
+          rotate: 0,
+          opacity: 1
+        }} exit={{
+          rotate: 90,
+          opacity: 0
+        }} transition={{
+          duration: 0.18
+        }}>
+              <X size={22} className="text-white" />
+            </motion.span> : <motion.span key="open" initial={{
+          rotate: 90,
+          opacity: 0
+        }} animate={{
+          rotate: 0,
+          opacity: 1
+        }} exit={{
+          rotate: -90,
+          opacity: 0
+        }} transition={{
+          duration: 0.18
+        }}>
+              <MessageCircle size={22} className="text-white" />
+            </motion.span>}
+        </AnimatePresence>
+      </motion.button>
+
+      {/* Pulse ring when closed */}
+      <AnimatePresence>
+        {!isOpen && <motion.span initial={{
+        opacity: 0
+      }} animate={{
+        opacity: 1
+      }} exit={{
+        opacity: 0
+      }} className="absolute bottom-0 right-0 w-14 h-14 sm:w-16 sm:h-16 rounded-full pointer-events-none">
+            <span className="absolute inset-0 rounded-full bg-[#E07B39]/30 animate-ping" />
           </motion.span>}
       </AnimatePresence>
 

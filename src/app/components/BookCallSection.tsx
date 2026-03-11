@@ -1,5 +1,5 @@
 "use client";
-
+/*
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Check, ArrowRight } from 'lucide-react';
@@ -14,7 +14,6 @@ export const BookCallSection = ({ messages }: BookCallSectionProps) => {
   return <section id="pakketten" className="py-16 sm:py-24 lg:py-32 px-5 sm:px-8 bg-[#1a1c24] relative overflow-hidden border-t border-white/5">
       <div className="max-w-6xl mx-auto relative z-10">
 
-        {/* Section Header */}
         <motion.div initial={{
         opacity: 0,
         y: 30
@@ -41,7 +40,6 @@ export const BookCallSection = ({ messages }: BookCallSectionProps) => {
           </p>
         </motion.div>
 
-        {/* Card */}
         <motion.div initial={{
         opacity: 0,
         y: 40
@@ -54,7 +52,6 @@ export const BookCallSection = ({ messages }: BookCallSectionProps) => {
         duration: 0.8,
         delay: 0.1
       }} className="bg-white/3 border border-white/10 rounded-[32px] sm:rounded-[40px] overflow-hidden">
-          {/* Top header strip */}
           <div className="bg-[#DDB892]/10 border-b border-[#DDB892]/20 px-6 sm:px-12 py-5 sm:py-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 sm:gap-4">
             <div className="flex items-center gap-3">
               <span className="w-2 h-2 rounded-full bg-[#DDB892] animate-pulse shrink-0" />
@@ -70,10 +67,8 @@ export const BookCallSection = ({ messages }: BookCallSectionProps) => {
             </div>
           </div>
 
-          {/* Two-column body */}
           <div className="grid md:grid-cols-2 divide-y md:divide-y-0 md:divide-x divide-white/5">
 
-            {/* Left: What to expect */}
             <div className="p-7 sm:p-10 md:p-12 space-y-1">
               <p className="text-[10px] font-black uppercase tracking-[0.2em] text-white/30 mb-6 sm:mb-8">
                 {messages.includesLabel}
@@ -90,11 +85,9 @@ export const BookCallSection = ({ messages }: BookCallSectionProps) => {
                 </div>)}
             </div>
 
-            {/* Right: Book CTA */}
             <div className="p-7 sm:p-10 md:p-12 flex flex-col justify-between gap-8 sm:gap-10">
               <div className="space-y-6 sm:space-y-8">
 
-                {/* Heading */}
                 <div>
                   <p className="text-[10px] font-black uppercase tracking-[0.2em] text-white/30 mb-4">
                     {messages.rightTopLabel}
@@ -117,7 +110,6 @@ export const BookCallSection = ({ messages }: BookCallSectionProps) => {
 
                 <div className="h-px w-full bg-white/5 rounded-full" />
 
-                {/* Wat we bespreken */}
                 <div className="space-y-3 sm:space-y-4">
                   <p className="text-[10px] font-black uppercase tracking-[0.2em] text-white/30">
                     {messages.discussLabel}
@@ -130,14 +122,12 @@ export const BookCallSection = ({ messages }: BookCallSectionProps) => {
                   </div>
                 </div>
 
-                {/* Quote */}
                 <div className="bg-white/4 border border-white/10 rounded-2xl p-5 sm:p-6">
                   <p className="text-white/50 font-serif italic text-sm leading-relaxed">
                     "Wij nemen alleen klanten aan die wij écht kunnen helpen. Dat bespreken we eerlijk tijdens het kennismakingsgesprek."
                   </p>
                 </div>
 
-                {/* Capacity bar */}
                 <div className="space-y-2 sm:space-y-3">
                   <div className="flex justify-between items-end">
                     <span className="text-[10px] font-black uppercase tracking-[0.2em] text-white/30">
@@ -161,13 +151,199 @@ export const BookCallSection = ({ messages }: BookCallSectionProps) => {
                   </div>
                 </div>
 
-                {/* CTA Button */}
                 <a href="#wachtlijst" className="w-full py-4 sm:py-5 rounded-xl bg-[#DDB892] hover:bg-white text-[#1a1c24] font-black text-sm tracking-[0.15em] uppercase transition-all active:scale-[0.98] shadow-xl shadow-[#DDB892]/10 hover:shadow-white/20 flex items-center justify-center gap-3 group">
                   <span>{messages.ctaPrimary}</span>
                   <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                 </a>
                 <p className="text-center text-[10px] text-white/20 uppercase tracking-widest font-medium">
                   {messages.ctaNote}
+                </p>
+
+              </div>
+            </div>
+
+          </div>
+        </motion.div>
+      </div>
+    </section>;
+};
+*/
+
+"use client";
+
+import React from 'react';
+import { motion } from 'framer-motion';
+import { Check, ArrowRight } from 'lucide-react';
+const ctaIncludesItems = [{
+  id: 'ci-1',
+  label: 'Analyse van jouw huidige ondernemersprofiel'
+}, {
+  id: 'ci-2',
+  label: 'Inzicht in wat ontbreekt aan jouw positionering'
+}, {
+  id: 'ci-3',
+  label: 'Bekijken van jouw LinkedIn en online aanwezigheid'
+}, {
+  id: 'ci-4',
+  label: 'Uitleg over onze werkwijze en aanpak'
+}, {
+  id: 'ci-5',
+  label: 'Antwoord op al jouw vragen over de Wet DBA'
+}, {
+  id: 'ci-6',
+  label: "Eerlijk gesprek - ook als wij niet de juiste match zijn"
+}, {
+  id: 'ci-7',
+  label: 'Geen verplichtingen, geen verborgen kosten'
+}] as any[];
+const watWeBesprekenItems = [{
+  id: 'wb-1',
+  text: 'Jouw huidige situatie als zelfstandige.'
+}, {
+  id: 'wb-2',
+  text: 'Hoe de Wet DBA jouw inhuurpositie beïnvloedt.'
+}, {
+  id: 'wb-3',
+  text: 'Hoe wij jouw profiel professioneel inrichten.'
+}] as any[];
+
+// @component: BookCallSection
+export const BookCallSection = () => {
+  return <section id="pakketten" className="py-16 sm:py-24 lg:py-32 px-5 sm:px-8 bg-[#1E2238] relative overflow-hidden border-t border-white/5">
+      <div className="max-w-6xl mx-auto relative z-10">
+
+        {/* Section Header */}
+        <motion.div initial={{
+        opacity: 0,
+        y: 30
+      }} whileInView={{
+        opacity: 1,
+        y: 0
+      }} viewport={{
+        once: true
+      }} transition={{
+        duration: 0.7
+      }} className="text-center mb-12 sm:mb-16 lg:mb-20">
+          <span className="text-[#E07B39] font-bold tracking-[0.2em] uppercase text-xs">Vrijblijvend gesprek</span>
+          <h2 className="text-[34px] sm:text-[48px] lg:text-[56px] xl:text-[72px] font-serif text-white mt-3 mb-6 sm:mb-8 tracking-tight leading-none">
+            <span>Ontdek wat wij</span>
+            <br />
+            <span className="italic font-light text-[#E07B39]">voor jou kunnen doen.</span>
+          </h2>
+          <p className="text-base sm:text-lg lg:text-xl text-white/55 font-light leading-relaxed max-w-2xl mx-auto">
+            Plan een gratis en vrijblijvend kennismakingsgesprek van 30 minuten. Geen verplichtingen — alleen concrete antwoorden op jouw situatie.
+          </p>
+        </motion.div>
+
+        {/* Card */}
+        <motion.div initial={{
+        opacity: 0,
+        y: 40
+      }} whileInView={{
+        opacity: 1,
+        y: 0
+      }} viewport={{
+        once: true
+      }} transition={{
+        duration: 0.8,
+        delay: 0.1
+      }} className="bg-white/[0.03] border border-white/10 rounded-[32px] sm:rounded-[40px] overflow-hidden">
+          {/* Top header strip */}
+          <div className="bg-[#E07B39]/10 border-b border-[#E07B39]/20 px-6 sm:px-12 py-5 sm:py-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 sm:gap-4">
+            <div className="flex items-center gap-3">
+              <span className="w-2 h-2 rounded-full bg-[#E07B39] animate-pulse shrink-0" />
+              <span className="text-[9px] sm:text-[10px] font-black uppercase tracking-[0.2em] sm:tracking-[0.25em] text-[#E07B39]">
+                DBA KLAAR methode - PERSOONLIJK KENNISMAKINGSGESPREK
+              </span>
+            </div>
+            <div className="flex items-center gap-2">
+              <Check className="w-3.5 h-3.5 text-[#E07B39] shrink-0" />
+              <span className="text-[#E07B39] font-bold text-sm tracking-tight">Volledig gratis</span>
+            </div>
+          </div>
+
+          {/* Two-column body */}
+          <div className="grid md:grid-cols-2 divide-y md:divide-y-0 md:divide-x divide-white/5">
+
+            {/* Left: What to expect */}
+            <div className="p-7 sm:p-10 md:p-12 space-y-1">
+              <p className="text-[10px] font-black uppercase tracking-[0.2em] text-white/30 mb-6 sm:mb-8">
+                Wat je kunt verwachten
+              </p>
+              {ctaIncludesItems.map(item => <div key={item.id} className="flex items-center py-3 sm:py-4 border-b border-white/5 group">
+                  <div className="flex items-center gap-3 sm:gap-4">
+                    <div className="w-5 h-5 rounded-full bg-[#E07B39]/10 border border-[#E07B39]/30 flex items-center justify-center shrink-0 group-hover:bg-[#E07B39]/20 transition-colors">
+                      <Check className="w-2.5 h-2.5 text-[#E07B39]" />
+                    </div>
+                    <span className="text-white/60 group-hover:text-white/90 transition-colors font-light text-sm sm:text-base">
+                      {item.label}
+                    </span>
+                  </div>
+                </div>)}
+            </div>
+
+            {/* Right: Book CTA */}
+            <div className="p-7 sm:p-10 md:p-12 flex flex-col justify-between gap-8 sm:gap-10">
+              <div className="space-y-6 sm:space-y-8">
+
+                {/* Heading */}
+                <div>
+                  <p className="text-[10px] font-black uppercase tracking-[0.2em] text-white/30 mb-4">JOUW VOLGENDE STAP:</p>
+                  <h3 className="text-3xl sm:text-4xl md:text-5xl font-serif font-light text-white leading-tight mb-3">
+                    Plan een <span className="text-[#E07B39] italic">gesprek</span><span className="text-[#E07B39]" style={{
+                    fontFamily: 'Georgia, serif'
+                  }}>.</span>
+                  </h3>
+                  <p className="text-white/30 text-sm font-light">30 minuten — vrijblijvend en gratis</p>
+                </div>
+
+                <div className="h-[1px] w-full bg-white/5 rounded-full" />
+
+                {/* Wat we bespreken */}
+                <div className="space-y-3 sm:space-y-4">
+                  <p className="text-[10px] font-black uppercase tracking-[0.2em] text-white/30">Wat we bespreken</p>
+                  <div className="space-y-2 sm:space-y-3">
+                    {watWeBesprekenItems.map(item => <div key={item.id} className="flex items-center gap-3">
+                        <ArrowRight className="w-3.5 h-3.5 text-[#E07B39] shrink-0" />
+                        <span className="text-white/60 font-light text-sm">{item.text}</span>
+                      </div>)}
+                  </div>
+                </div>
+
+                {/* Quote */}
+                <div className="bg-white/[0.04] border border-white/10 rounded-2xl p-5 sm:p-6">
+                  <p className="text-white/50 font-serif italic text-sm leading-relaxed">
+                    "Wij nemen alleen klanten aan die wij écht kunnen helpen. Dat bespreken we eerlijk tijdens het kennismakingsgesprek."
+                  </p>
+                </div>
+
+                {/* Capacity bar */}
+                <div className="space-y-2 sm:space-y-3">
+                  <div className="flex justify-between items-end">
+                    <span className="text-[10px] font-black uppercase tracking-[0.2em] text-white/30">Capaciteit deze maand</span>
+                    <span className="text-[10px] font-black uppercase tracking-[0.2em] text-[#E07B39]">18 van 25 plekken bezet</span>
+                  </div>
+                  <div className="h-[2px] w-full bg-white/5 relative overflow-hidden rounded-full">
+                    <motion.div initial={{
+                    width: 0
+                  }} whileInView={{
+                    width: '72%'
+                  }} viewport={{
+                    once: true
+                  }} transition={{
+                    duration: 1.5,
+                    ease: 'circOut'
+                  }} className="absolute top-0 left-0 h-full bg-[#E07B39] shadow-[0_0_15px_rgba(224,123,57,0.4)]" />
+                  </div>
+                </div>
+
+                {/* CTA Button */}
+                <a href="#wachtlijst" className="w-full py-4 sm:py-5 rounded-xl bg-[#E07B39] hover:bg-white text-white hover:text-[#1E2238] font-black text-sm tracking-[0.15em] uppercase transition-all active:scale-[0.98] shadow-xl shadow-[#E07B39]/15 hover:shadow-white/20 flex items-center justify-center gap-3 group">
+                  <span>Plan je gesprek</span>
+                  <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                </a>
+                <p className="text-center text-[10px] text-white/20 uppercase tracking-[0.1em] font-medium">
+                  Wij nemen binnen 24 uur contact op
                 </p>
 
               </div>
